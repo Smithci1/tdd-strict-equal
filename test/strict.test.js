@@ -10,6 +10,8 @@ const strictlyEqual = require('../strict.')
 
               strictlyEqual(num)
 
+              expect(num).to.NaN
+
 
 
 
@@ -19,19 +21,23 @@ const strictlyEqual = require('../strict.')
                      var num = [5 + 7]
 
                      strictlyEqual(num)
+
+                     expect(num).to.equal(12)
                      
 
 
-                     describe('strict', ( => {
+                     describe('strict', () => {
                         describe('strictlyEqual', () =>{
-                           it('asserts that bouth the values given are equal to 10',() =>{
+                           it('asserts that both the values given are equal to 10',() =>{
                               var num = [5 + 5]
 
                               strictlyEqual(num)
 
+                              expect(num).to.equal(10)
+
                            })
                         })
-                     }))
+                     })
 
 
 
