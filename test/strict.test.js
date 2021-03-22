@@ -16,7 +16,7 @@ const strictlyEqual = require('../strict.')
             describe('strict', () => {
                describe('strictlyEqual', () =>{
                   it('asserts that any values given will add up to the same total', () =>{
-                     var num = [6 + 7]
+                     var num = [5 + 7]
 
                      strictlyEqual(six)
                      
@@ -25,7 +25,8 @@ const strictlyEqual = require('../strict.')
                      describe('strict', ( => {
                         describe('strictlyEqual', () =>{
                            it('asserts that bouth the values given are equal to 10',() =>{
-                              
+                              var num = [5 + 5]
+
                            })
                         })
                      }))
