@@ -20,9 +20,16 @@ const strictlyEqual = require('../strict.')
 
                      strictlyEqual(six)
                      
-         
 
-                 
+
+                     describe('strict', ( => {
+                        describe('strictlyEqual', () =>{
+                           it('asserts that bouth the values given are equal to 10',() =>{
+                              
+                           })
+                        })
+                     }))
+
 
 
                         })
