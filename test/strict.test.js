@@ -1,28 +1,28 @@
 const describe = require('mocha').describe
 const it = require('mocha').it
 const expect = require('chai').expect
-const strictEqual = require('../strict.')
+const strictlyEqual = require('../strict.')
 
      describe('strict', () => {
-        describe('strictEqual', () => {
-           it('asserts that job applicant reaches the age requirement to work', () => {
+        describe('strictlyEqual', () => {
+           it('asserts that any values given are the same type and wont need type conversion', () => {
+              var num = ['5' + 5]
 
-            const appAge = 18
-            const yoe = 0
+              strictlyEqual(five)
+
+
 
 
             describe('strict', () => {
-               describe('strictEqual', () =>{
-                  it('asserts that job applicant has the years of experience required (yoe)', () =>{
-                     const appAge = 21
-                     const yoe = 2
+               describe('strictlyEqual', () =>{
+                  it('asserts that any values given will add up to the same total', () =>{
+                     var num = [6 + 7]
 
-                     describe('strict', () => {
-                        describe('strictEqual', () => {
-                           it('asserts the applicant as both the age and yoe required for the job', () => {
-                              const appAge = 21
-                              const yoe = 5
-                           })
+                     strictlyEqual(six)
+                     
+         
+
+                 
 
 
                         })
