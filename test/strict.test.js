@@ -8,7 +8,7 @@ const strictlyEqual = require('../strict.')
            it('asserts that any values given are the same type and wont need type conversion', () => {
               var num = ['5' + 5]
 
-              strictlyEqual(five)
+              strictlyEqual(num)
 
 
 
@@ -18,7 +18,7 @@ const strictlyEqual = require('../strict.')
                   it('asserts that any values given will add up to the same total', () =>{
                      var num = [5 + 7]
 
-                     strictlyEqual(six)
+                     strictlyEqual(num)
                      
 
 
@@ -26,6 +26,8 @@ const strictlyEqual = require('../strict.')
                         describe('strictlyEqual', () =>{
                            it('asserts that bouth the values given are equal to 10',() =>{
                               var num = [5 + 5]
+
+                              strictlyEqual(num)
 
                            })
                         })
